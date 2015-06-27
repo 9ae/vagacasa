@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Vagacasa</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Find</string>
+    <string name="title_section2">Saved Places</string>
+    <string name="title_section3">My Metrics</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -11,4 +11,17 @@
     <string name="action_example">Example action</string>
 
     <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="label_hunt_date_range">When are you looking to move?</string>
+    <string name="placeholder_hunt_start_date">Earliest Date</string>
+    <string name="placeholder_hunt_end_date">Latest Date</string>
+
+    <string name="label_hunt_price_range">How much can you spend?</string>
+    <string name="placeholder_hunt_min_price">Min: $0</string>
+    <string name="placeholder_hunt_max_price">Max: \u221E</string>
+
+    <string name="btn_new_hunt_next">Next</string>
 </resources>

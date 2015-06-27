@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.valour.vagacasa.fragments.NewHuntFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_hunt_date_range"
+         />
+
+    <EditText android:id="@+id/editxt_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="@string/placeholder_hunt_start_date"
+        />
+
+    <EditText android:id="@+id/editxt_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:hint="@string/placeholder_hunt_end_date"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/field_space" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_hunt_price_range"
+        />
+
+    <EditText android:id="@+id/editxt_min_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/placeholder_hunt_min_price"
+        />
+
+    <EditText android:id="@+id/editxt_max_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/placeholder_hunt_max_price"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_new_hunt_next"
+        android:id="@+id/btn_new_hunt_next"
+        android:layout_gravity="right" />
+
+
+</LinearLayout>
